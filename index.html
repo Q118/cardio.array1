@@ -34,7 +34,7 @@
     // 1. Filter the list of inventors for those who were born in the 1500's
     //filter will loop through the array and give us what put in ()
                     //loop through inventors array for each of the inventor - do soemthing
-    const fifteen = inventors.filter(function(inventor){
+    const fifteen = inventors.filter(inventor => {
             if(inventor.year < 1600 && inventor.year >= 1500) {
                     return true; //returning true will keep it 
             }
